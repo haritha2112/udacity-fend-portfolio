@@ -32,7 +32,7 @@
   .col-m-12 {width: 100%;}
 }
 
-@media screen and (min-width: 801px) {
+@media only screen and (min-width: 768px) {
   .col-l-1 {width: 8.33%;}
   .col-l-2 {width: 16.66%;}
   .col-l-3 {width: 25%;}
