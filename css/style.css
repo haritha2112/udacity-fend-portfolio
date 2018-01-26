@@ -2,11 +2,22 @@
   box-sizing: border-box;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 [class *= "col-"] {
   width: 100%;
 }
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
+@media only screen and (min-width: 600px) {
   .col-m-1 {width: 8.33%;}
   .col-m-2 {width: 16.66%;}
   .col-m-3 {width: 25%;}
