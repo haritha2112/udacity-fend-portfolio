@@ -64,6 +64,10 @@
   text-align: center;
 }
 
+.categories {
+  border-bottom: 0.5px solid #AAA;
+  padding-bottom: 3%
+}
 
 @media only screen and (min-width: 600px) {
   .col-m-1 {width: 8.33%;}
