@@ -18,7 +18,7 @@
 }
 
 .border-bottom {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #AAA;
 }
 
 .header-logo {
@@ -40,14 +40,21 @@
   color: #b778b8;
 }
 
-.main-image, .work-image, .education-image, .photography-image {
+.main-image {
   width: 100%;
   height: auto;
+  padding-top: 1%;
+}
+
+.work-image, .education-image, .photography-image {
+  width: 100%;
+  height: auto;
+  padding-top: 3%;
 }
 
 .work, .education, .photography {
   font-family: 'Merienda', cursive;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
