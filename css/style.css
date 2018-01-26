@@ -17,8 +17,8 @@
   width: 100%;
 }
 
-.header-content {
-  text-align: center;
+.border-bottom {
+  border-bottom: 1px solid;
 }
 
 .header-logo {
