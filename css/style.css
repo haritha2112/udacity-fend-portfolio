@@ -40,12 +40,7 @@
   color: #b778b8;
 }
 
-.main-image {
-  width: 100%;
-  height: auto;
-}
-
-.work-image {
+.main-image, .work-image, .education-image, .photography-image {
   width: 100%;
   height: auto;
 }
@@ -56,16 +51,6 @@
 
 .work-link, .education-link, .photography-link {
   font-family: 'Merienda', cursive;
-}
-
-.education-image {
-  width: 100%;
-  height: auto;
-}
-
-.photography-image {
-  width: 100%;
-  height: auto;
 }
 
 @media only screen and (min-width: 600px) {
