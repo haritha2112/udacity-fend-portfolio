@@ -39,6 +39,21 @@
   height: auto;
 }
 
+.work-experience {
+  width: 100%;
+  height: auto;
+}
+
+.education {
+  width: 100%;
+  height: auto;
+}
+
+.photography {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 600px) {
   .col-m-1 {width: 8.33%;}
   .col-m-2 {width: 16.66%;}
