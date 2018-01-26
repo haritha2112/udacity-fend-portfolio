@@ -32,6 +32,12 @@
 
 .header-content {
   text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+.side-heading {
+  font-family: 'Merienda', cursive;
+  color: #b778b8;
 }
 
 .main-image {
