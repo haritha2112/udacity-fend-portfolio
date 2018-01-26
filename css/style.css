@@ -47,11 +47,16 @@
 
 .work, .education, .photography {
   font-family: 'Merienda', cursive;
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 .work-link, .education-link, .photography-link {
   font-family: 'Merienda', cursive;
+  font-size: 0.8rem;
+  text-align: center;
 }
+
 
 @media only screen and (min-width: 600px) {
   .col-m-1 {width: 8.33%;}
@@ -76,12 +81,32 @@
   }
 
   .logo-image {
-    width: 60%;
+    width: 100%;
     height: auto;
+  }
+
+  .header-content {
+    font-size: 1.5rem;
+  }
+
+  .side-heading {
+    font-size: 1.2rem;
+  }
+
+  .work-image, .education-image, .photography-image {
+    padding: 0 0 5% 5%;
+  }
+
+  .work, .education, .photography {
+    padding: 0 0 5% 5%;
+  }
+
+  .work-link, .education-link, .photography-link {
+    font-size: 0.6rem;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .col-l-1 {width: 8.33%;}
   .col-l-2 {width: 16.66%;}
   .col-l-3 {width: 25%;}
@@ -106,5 +131,25 @@
   .logo-image {
     width: 60%;
     height: auto;
+  }
+
+  .header-content {
+    font-size: 1.5rem;
+  }
+
+  .side-heading {
+    font-size: 1.2rem;
+  }
+
+  .work-image, .education-image, .photography-image {
+    padding: 0 0 5% 5%;
+  }
+
+  .work, .education, .photography {
+    padding: 0 0 5% 5%;
+  }
+
+  .work-link, .education-link, .photography-link {
+    font-size: 1rem;
   }
 }
