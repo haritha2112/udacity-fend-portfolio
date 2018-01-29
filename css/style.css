@@ -22,7 +22,8 @@
 }
 
 .border-bottom {
-  border-bottom: 1px solid #AAA;
+  border-bottom: 3px solid #AAA;
+  padding-bottom: 1%;
 }
 
 .header-logo {
