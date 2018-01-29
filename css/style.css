@@ -37,18 +37,31 @@
 
 .header-content {
   text-align: center;
-  font-family: 'Courgette', cursive;
+  font-family: 'Handlee', cursive;
 }
 
 .side-heading {
-  font-family: 'Merienda', cursive;
+  font-family: 'Handlee', cursive;
   color: #b778b8;
 }
 
 .main-image {
   width: 100%;
   height: auto;
-  padding-top: 1%;
+  padding-top: 3%;
+}
+
+.work-image {
+  padding-right: 4%
+}
+
+.education-image {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.photography-image {
+  padding-left: 4%;
 }
 
 .work-image, .education-image, .photography-image {
@@ -99,6 +112,11 @@
   .logo-image {
     width: 100%;
     height: auto;
+    padding-top: 22%;
+  }
+
+  .main-image {
+    padding-top: 1%;
   }
 
   .header-content {
@@ -109,8 +127,17 @@
     font-size: 1.2rem;
   }
 
-  .work-image, .education-image, .photography-image {
-    padding: 4%;
+  .work-image {
+    padding-right: 4%;
+  }
+
+  .education-image {
+    padding-left: 2%;
+    padding-right: 2%;
+  } 
+
+  .photography-image {
+     padding-left: 4%;
   }
 
   .work, .education, .photography {
@@ -145,8 +172,12 @@
   }
 
   .logo-image {
-    width: 60%;
+    width: 100%;
     height: auto;
+  }
+
+  .main-image {
+    padding-top: 1%;
   }
 
   .header-content {
@@ -156,11 +187,7 @@
   .side-heading {
     font-size: 1.2rem;
   }
-
-  .work-image, .education-image, .photography-image {
-    padding: 4%;
-  }
-
+  
   .work, .education, .photography {
     padding: 4%;
   }
